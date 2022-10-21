@@ -1,0 +1,21 @@
+import React from 'react'
+
+export function NavigationRight() {
+  return (
+    <div>
+      <nav>
+        <ul>
+          <li id="twitter">
+            <a href="https://twitter.com/githubdesign">
+              <span>Follow us on Twitter</span>
+              <img src="twitter.png" width="30" height="30" />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/">Back to GitHub.com</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  )
+}

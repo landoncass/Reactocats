@@ -1,8 +1,10 @@
 import React from 'react'
+import { NavigationLeft } from './components/navigation'
 
 export function App() {
-  return <div>Hello, World</div>
+  return (
+    <div>
+      <NavigationLeft />
+    </div>
+  )
 }
-
-import { Navigation } from './components/navigation'
-
