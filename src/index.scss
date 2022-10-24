@@ -22,35 +22,6 @@ a:hover {
   color: #2f5cd8;
 }
 
-#title {
-  display: flex;
-  align-self: center;
-  font-weight: bold;
-  margin: auto;
-  padding: auto;
-}
-
-#home {
-  display: flex;
-  align-self: center;
-  padding-left: 1rem;
-  padding-right: 0.75rem;
-  color: gray;
-}
-
-#FAQ {
-  display: flex;
-  align-self: center;
-  padding-right: 0.75rem;
-  color: black;
-}
-
-#RSS {
-  display: flex;
-  align-self: center;
-  padding-right: 15rem;
-  color: black;
-}
 header {
   background: white;
   display: flex;
@@ -81,6 +52,10 @@ nav ul {
 
 nav ul li {
   padding: 0.5rem;
+}
+
+#github {
+  padding-right: 2rem;
 }
 
 main {
