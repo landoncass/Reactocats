@@ -14,13 +14,7 @@ export function Octocat(props: OctocatProps) {
   return (
     <div className="OctoArticle">
       <a className="OctocatImageLink" href={props.link}>
-        <img
-          className="OctoImage"
-          src={props.image}
-          width="290"
-          height="290"
-          alt={props.name}
-        />
+        <img className="OctoImage" src={props.image} alt={props.name} />
       </a>
 
       <div className="ArtistNamebox">
