@@ -5,6 +5,9 @@ type OctocatProps = {
   number: string
   link: string
   artistLink: string
+  image: string
+  artistAvatar: string
+  artistName: string
 }
 
 export function Octocat(props: OctocatProps) {
@@ -13,29 +16,29 @@ export function Octocat(props: OctocatProps) {
       <a className="OctocatImageLink" href={props.link}>
         <img
           className="OctoImage"
-          src="https://octodex.github.com//images/Terracottocat_Single.png"
+          src={props.image}
           width="290"
           height="290"
-          alt="Terracottocat"
+          alt={props.name}
         />
       </a>
 
       <div className="ArtistNamebox">
         <ul>
           <li id="Name">
-            #149:
-            <a href="https://octodex.github.com//terracottocat/">
-              <strong>Terracottocat</strong>
+            {props.number}:
+            <a href={props.link}>
+              <strong>{props.name}</strong>
             </a>
           </li>
           <li>
-            <a href="https://github.com/chubbmo">
+            <a href={props.artistLink}>
               <img
                 id="Picture"
-                src="https://github.com/chubbmo.png"
+                src={props.artistAvatar}
                 width="24px"
                 height="24px"
-                alt="chubbmo"
+                alt={props.artistName}
               />
             </a>
           </li>

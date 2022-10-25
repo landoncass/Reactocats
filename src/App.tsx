@@ -10,12 +10,11 @@ export function App() {
         name="NUXtocat"
         number="153"
         link="https://octodex.github.com/nuxtocat/"
+        image="https://octodex.github.com/images/NUX_Octodex.gif"
         artistLink="https://github.com/cameronfoxly"
+        artistAvatar="https://github.com/cameronfoxly.png"
+        artistName="Cameron Foxly"
       />
-      <Octocat />
-      <Octocat />
-      <Octocat />
-      <Octocat />
     </div>
   )
 }
